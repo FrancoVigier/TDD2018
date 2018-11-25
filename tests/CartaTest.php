@@ -8,7 +8,7 @@ class CartaTest extends TestCase {
 	}
 	public function testNumero(){
 		$carta = new Carta(9, "Treboles");
-		$this->assertFalse(is_int($carta->numero()));
+		$this->assertTrue(is_int($carta->numero()));
 	}
 	public function testTipo(){
 		$carta = new Carta(9, "Treboles");
