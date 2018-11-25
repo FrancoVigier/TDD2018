@@ -1,7 +1,7 @@
 <?php
 namespace TDD;
-/**
- clase carta, prototipos de carta
+/*
+ //clase carta, prototipos de carta
 */
 class Carta
 {protected $numero;
