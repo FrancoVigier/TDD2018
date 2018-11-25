@@ -16,7 +16,7 @@ class Carta
 	   public function __construct($numero = null, $palo = null) 
 	   {
 		   $this->numero = $numero;
-           $this->palo = $palo;
+		   $this->palo = $palo;
 		   if ($palo == "Treboles" || $palo == "Diamantes" || $palo == "Picas" || $palo == "Corazones") {
 		   $this->tipo = "Poker";
 	   } else {
