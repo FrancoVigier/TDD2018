@@ -49,7 +49,7 @@ class Carta
 		  //@desc devuelve el tipo de la carta, de poker o espaÃ±ola
 		  //@param
 		  //@return string de poker o espaÃ±ola
-		*
+		
  public function tipo()// devuelve el tipo de la carta
  {
 	return $this->tipo;
