@@ -1,7 +1,7 @@
 <?php
 namespace TDD;
 use PHPUnit\Framework\TestCase;
-class MazoTest extends TestCase {
+class CartaTest extends TestCase {
 	public function testPalo(){
 		$carta = new Carta("9", "Treboles");
 		$this->assertEquals($carta->palo(), "Corazones" || "Treboles" || "Picas" || "Diamantes" || "Bastones" || "Copas" || "Espadas" || "Oro");
