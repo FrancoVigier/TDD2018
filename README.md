@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/FrancoVigier/TDD2018.svg?branch=master)](https://travis-ci.org/FrancoVigier/TDD2018)
 
-Scrutinizer [![Build Status](https://scrutinizer-ci.com/g/FrancoVigier/TDD2018/badges/build.png?b=master)](https://scrutinizer-ci.com/g/FrancoVigier/TDD2018/build-status/master)
+[![Build Status](https://scrutinizer-ci.com/g/FrancoVigier/TDD2018/badges/build.png?b=master)](https://scrutinizer-ci.com/g/FrancoVigier/TDD2018/build-status/master)
 
 # Consigna
 
