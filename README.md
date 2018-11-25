@@ -1,6 +1,8 @@
-[![Coverage Status](https://coveralls.io/repos/github/dagostinoips/TDD2018/badge.svg?branch=master)](https://coveralls.io/github/dagostinoips/TDD2018?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/FrancoVigier/TDD2018/badge.svg?branch=master)](https://coveralls.io/github/FrancoVigier/TDD2018?branch=master)
 
-[![Build Status](https://travis-ci.org/dagostinoips/TDD2018.svg?branch=master)](https://travis-ci.org/dagostinoips/TDD2018)
+[![Build Status](https://travis-ci.org/FrancoVigier/TDD2018.svg?branch=master)](https://travis-ci.org/FrancoVigier/TDD2018)
+
+Scrutinizer [![Build Status](https://scrutinizer-ci.com/g/FrancoVigier/TDD2018/badges/build.png?b=master)](https://scrutinizer-ci.com/g/FrancoVigier/TDD2018/build-status/master)
 
 # Consigna
 
