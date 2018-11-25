@@ -10,9 +10,9 @@ class Mazo {
 	protected $ultimaCarta;
 
 	/**
-	* @desc constructor de la clase
-	* @param string, tipo de carta, española o de pokermo
-	* @return
+	// @desc constructor de la clase
+	//@param string, tipo de carta, española o de pokermo
+	//@return
 	*/
 	public function __construct($tipo = null)
 	{
@@ -28,9 +28,9 @@ class Mazo {
 	}
 
 	/**
-	* @desc crea las cartas y las almacena
-	* @param
-	* @return
+	//@desc crea las cartas y las almacena
+	//@param
+	//@return
 	*/
 	public function crear()
 	{
@@ -44,9 +44,9 @@ if ($this->tipo == "Españolas") {
 	}
 
 	/**
-	* @desc mezcla las cartas el mazo
-	* @param
-	* @return array mazo mezclado
+	//@desc mezcla las cartas el mazo
+	//@param
+	//@return array mazo mezclado
 	*/
 	public function mezclar()
 	{
@@ -54,9 +54,9 @@ if ($this->tipo == "Españolas") {
 	}
 
 	/**
-	* @desc corta el mazo
-	* @param
-	* @return bool si se pudo cortar bien true
+	//@desc corta el mazo
+	//@param
+	//@return bool si se pudo cortar bien true
 	*/
 	public function cortar()
 	{
@@ -66,9 +66,9 @@ if ($this->tipo == "Españolas") {
 	}
 
 	/**
-	* @desc verifica la igualdad de dos mazos
-	* @param array mazo a verificar
-	* @return bool true si son iguales, false en caso contrario
+	//@desc verifica la igualdad de dos mazos
+	//@param array mazo a verificar
+	//@return bool true si son iguales, false en caso contrario
 	*/
 	public function iguales($mazo2)
 {
@@ -76,9 +76,9 @@ if ($this->tipo == "Españolas") {
 	}
 
 	/**
-	* @desc devuelve la cantidad de cartas del mazo
-	* @param
-	* @return int cantidad
+	//@desc devuelve la cantidad de cartas del mazo
+	//@param
+	//@return int cantidad
 	*/
 	public function cantidadCartas()
 	{
@@ -86,9 +86,9 @@ if ($this->tipo == "Españolas") {
 	}
 
 	/**
-	* @desc devuelve una carto o false si no existe
-	* @param int carta que se quiere obtener
-	* @return Carta o bool en caso de no existir esa carta
+	//@desc devuelve una carto o false si no existe
+	//@param int carta que se quiere obtener
+	//@return Carta o bool en caso de no existir esa carta
 	*/
 	public function obtenerCarta($valor)
 	{
@@ -99,9 +99,9 @@ if ($this->tipo == "Españolas") {
 	}
 
 	/**
-	* @desc verifica si es vacio o no un mazo
-	* @param
-	* @return bool true si es vacio, false en caso contrario
+	//@desc verifica si es vacio o no un mazo
+	//@param
+	//@return bool true si es vacio, false en caso contrario
 	*/
 	public function noVacio()
 	{
@@ -109,9 +109,9 @@ if ($this->tipo == "Españolas") {
 	}
 
 	/**
-	* @desc agrega una carta al mazo
-	* @param Carta
-	* @return bool true al completar la accion
+	//@desc agrega una carta al mazo
+	//@param Carta
+	//@return bool true al completar la accion
 	*/
 	public function agregar($carta)
 	{
