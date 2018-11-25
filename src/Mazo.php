@@ -9,11 +9,11 @@ class Mazo {
 	protected $tipo;
 	protected $ultimaCarta;
 
-	/**
+	/
 	// @desc constructor de la clase
 	//@param string, tipo de carta, española o de pokermo
 	//@return
-	*/
+	
 	public function __construct($tipo = null)
 	{
 	$this->tipo = $tipo;
