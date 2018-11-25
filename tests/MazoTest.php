@@ -6,21 +6,21 @@ class MazoTest extends TestCase {
      * Valida que se puedan crear mazos de cartas.
      */
     public function testExiste() {
-        $mazo = new Mazo;
+        $mazo = new Mazo();
         $this->assertTrue(isset($mazo));
     }
     public function testMezclable() {
-        $mazo = new Mazo;
+        $mazo = new Mazo();
         $this->assertTrue($mazo->mezclar());
     }
 	public function testIguales() {
-        $mazo = new Mazo;
+        $mazo = new Mazo();
 		$mazo2 = $mazo;
 		$mazo2->mezclar();
 		$this->assertFalse($mazo->iguales($mazo2));
     }
 	public function testCantidadCartas(){
-		$mazo1 = new Mazo;
+		$mazo1 = new Mazo();
 		$mazo2 = new Mazo("Poker");
 		$mazo3 = new Mazo("Españolas");
 		$carta = new Carta(6, "Corazones");
@@ -30,7 +30,7 @@ class MazoTest extends TestCase {
 		$this->assertEquals($mazo3->cantidadCartas(),50);
 	}
 	public function testCarta(){
-		$mazo = new Mazo;
+		$mazo = new Mazo();
 		$this->assertTrue(($mazo->obtenerCarta()) instanceof Carta);
 	}
 	public function testNoVacio(){
@@ -41,7 +41,7 @@ class MazoTest extends TestCase {
 		$this->assertTrue($mazo->noVacio());
 	}
 	public function testAgregar(){
-		$mazo = new Mazo;
+		$mazo = new Mazo();
 		$carta = new Carta(6, "Corazones");
 		$this->assertTrue($mazo->agregar($carta));
 	}
